@@ -1,4 +1,4 @@
-const showBooksTemplate = require('../templates/book-listing.handlebars')
+const showBooksTemplate = require('../templates/index-books.handlebars')
 
 const getBooksSuccess = (data) => {
   console.log(data)
