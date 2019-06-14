@@ -2,7 +2,7 @@
 
 const config = require('../config.js')
 
-const loadBooks = () => {
+const indexBooks = () => {
   return $.ajax({
     url: config.apiUrl + '/books',
     method: 'GET'
@@ -10,5 +10,5 @@ const loadBooks = () => {
 }
 
 module.exports = {
-  loadBooks
+  indexBooks
 }
